@@ -29,7 +29,7 @@ Aplicação:
 
 **VPC**
 
-![VPC](https://drive.google.com/file/d/1fhk_1uinkIYJRZWt3fp7qdCl0TyqkNVm/view?usp=sharing)
+
 
 ---
 
