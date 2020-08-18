@@ -29,7 +29,7 @@ Aplicação:
 
 **VPC**
 
-
+![Image] (/home/lgomes/Documents/AWS_VPC.png)
 
 ---
 
