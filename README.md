@@ -27,6 +27,10 @@ Aplicação:
 
 ### Provisionamento do ambiente
 
+**VPC**
+
+![VPC](https://drive.google.com/file/d/14YM3soiPRvnXI1pzMxB0R0CXer9Y2CKO/view?usp=sharing)
+
 ---
 
 ### Cluster
