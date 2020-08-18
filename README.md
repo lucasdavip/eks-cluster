@@ -29,7 +29,7 @@ Aplicação:
 
 **VPC**
 
-![VPC] (https://github.com/lucasdavip/Cluster_Monitorado/blob/master/images/AWS_VPC.png)
+![VPC](https://github.com/lucasdavip/Cluster_Monitorado/blob/master/images/AWS_VPC.png)
 
 ---
 
