@@ -31,6 +31,8 @@ Aplicação:
 
 ![VPC](https://github.com/lucasdavip/Cluster_Monitorado/blob/master/images/AWS_VPC.png)
 
+Provisionar uma VPC com Terraform de forma a criar um ambinte de alta disponibilidade, seguro e automatizado. 
+
 ---
 
 ### Cluster
