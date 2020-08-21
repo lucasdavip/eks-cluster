@@ -7,21 +7,25 @@ Criar um cluster kubernetes de forma automatizada ja implementando monitoramento
 **As ferrmentas utilizadas serão:** 
 
 Provisionamento do ambiente: 
-* AWS
-* Terraform
+* AWS (https://docs.aws.amazon.com/)
+* Terraform (https://www.terraform.io/docs/index.html)
 
 Cluster:
-* Docker
-* Kubernetes
+* Docker (https://docs.docker.com/)
+* Kubernetes (https://kubernetes.io/pt/docs/home/)
 
 Monitoramento: 
-* Prometheus Server
-* Alertmanager
-* Node Exporter
-* Grafana
+* Prometheus stack (https://prometheus.io/docs/)
+* Grafana (https://grafana.com/docs/grafana/latest/)
+* Thanos (https://thanos.io/getting-started.md/)
+* fluentd (https://docs.fluentd.org/)
 
 Aplicação:
 * Python (Hello Wolrd)
+
+CI/CD
+* HELM (https://helm.sh/docs/)
+* Jenkins (https://helm.sh/docs/)
 
 ---
 
