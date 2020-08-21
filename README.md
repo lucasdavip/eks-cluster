@@ -19,10 +19,15 @@ Monitoramento:
 * Alertmanager
 * Node Exporter
 * Grafana
+* Thanus
+* fluentd
 
 Aplicação:
 * Python (Hello Wolrd)
 
+CI/CD
+* HELM
+* Jenkins
 ---
 
 ### Provisionamento do ambiente
