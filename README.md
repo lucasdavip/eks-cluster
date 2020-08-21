@@ -25,7 +25,7 @@ Aplicação:
 
 CI/CD
 * HELM (https://helm.sh/docs/)
-* Jenkins (https://helm.sh/docs/)
+* Jenkins (https://www.jenkins.io/doc/)
 
 ---
 
