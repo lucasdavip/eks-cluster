@@ -1,2 +1,4 @@
 # ignore files
 terraform/*/.terraform
+terraform/*/*/.terraform
+terraform/*/*/*.terraform
