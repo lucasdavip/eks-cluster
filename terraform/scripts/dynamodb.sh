@@ -1,4 +1,4 @@
-# Criar a Tabela 
+# Criar tabela state lock (dynamodb)
 env=$1
 aws dynamodb create-table \
     --table-name terraform_${env} \
