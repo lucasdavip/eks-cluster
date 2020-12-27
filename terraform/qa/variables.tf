@@ -1,4 +1,4 @@
-#vpc
+#-- vpc --------------------------------------------------
 variable "cidr_block" {
   default = "10.20.0.0/16"
 }
@@ -11,8 +11,6 @@ variable "project_name" {
   default = "cluster_monitoring"
 }
 
-#subnet
-
 variable "subnet_az_a" {
   default = "us-east-1a"
 }
@@ -20,6 +18,8 @@ variable "subnet_az_a" {
 variable "subnet_az_b" {
   default = "us-east-1b"
 }
+
+#subnet
 
 variable "subnet_cidr_pub1a" {
   default = "10.20.1.0/24"

@@ -7,3 +7,12 @@ resource "aws_vpc" "vpc" {
   }
 }
 
+resource "aws_internet_gateway" "gw" {
+  vpc_id = aws_vpc.vpc.id
+
+  tags = {
+    Name    = var.env
+    project = var.project_name
+  }
+  depends_on = [aws_vpc.vpc]
+}

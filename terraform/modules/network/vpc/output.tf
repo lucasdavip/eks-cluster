@@ -5,3 +5,7 @@ output "vpc_cidr_block" {
 output "vpc_id" {
   value = aws_vpc.vpc.id
 }
+
+output "internet_gateway" {
+  value = aws_internet_gateway.gw.id
+}
