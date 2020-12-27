@@ -1,3 +1,4 @@
+# VPC
 resource "aws_vpc" "vpc" {
   cidr_block = var.cidr_block
   tags = {
@@ -5,3 +6,4 @@ resource "aws_vpc" "vpc" {
     project = var.project_name
   }
 }
+
