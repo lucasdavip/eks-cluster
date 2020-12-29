@@ -31,7 +31,7 @@ output "subnet_id_priv2b" {
 }
 
 output "Internet_gateway" {
-  value = module.create_vpc.internet_gateway
+  value = module.create_vpc.internet_gateway_id
 }
 
 output "natgw_pub1a_id" {

@@ -15,3 +15,4 @@ resource "aws_nat_gateway" "natgw" {
   }
   depends_on = [aws_eip.nat]
 }
+

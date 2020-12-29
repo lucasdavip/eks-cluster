@@ -9,3 +9,4 @@ output "natgw_id" {
 output "natgw_allocation" {
   value = aws_nat_gateway.natgw.allocation_id
 }
+
