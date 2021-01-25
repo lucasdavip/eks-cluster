@@ -1,52 +1,15 @@
-# Projeto Cluster Monitorado
+# AUTOMATED CLUSTER KUBERNETES PROJECT
 
-## Descrição
+### Description
 
-Criar um cluster kubernetes de forma automatizada ja implementando monitoramento Stack prometheus e Grafana.
+This project aims to automate the creation of an EKS cluster (AWS Elastic Kubernetes Service) for any environment need such as development and production. One of the objectives is also to promote a controlled and monitored environment from the beginning.
+I used several automation tools like terraform, python and shell script.
 
-**As ferrmentas utilizadas serão:** 
 
-Provisionamento do ambiente: 
-* AWS (https://docs.aws.amazon.com/)
-* Terraform (https://www.terraform.io/docs/index.html)
+## VPC
 
-Cluster:
-* Docker (https://docs.docker.com/)
-* Kubernetes (https://kubernetes.io/pt/docs/home/)
-
-Monitoramento: 
-* Prometheus stack (https://prometheus.io/docs/)
-* Grafana (https://grafana.com/docs/grafana/latest/)
-* Thanos (https://thanos.io/getting-started.md/)
-* fluentd (https://docs.fluentd.org/)
-
-Aplicação:
-* Python (Hello Wolrd)
-
-CI/CD
-* HELM (https://helm.sh/docs/)
-* Jenkins (https://www.jenkins.io/doc/)
-
----
-
-### Provisionamento do ambiente
-
-**VPC**
+VPC (Private Virtual Network) was designed to promote a high availability, secure and automated environment.
+Containing three availability zones and dividing the workload between instances in the different availability zones, if one of the "AZ" is affected the instances are scalling between the other two regions.
+This scenario is ideal for workloads that require autonomous availability.
 
 ![VPC](https://github.com/lucasdavip/Cluster_Monitorado/blob/master/images/AWS_VPC.png)
-
-Provisionar uma VPC com Terraform de forma a criar um ambinte de alta disponibilidade, seguro e automatizado. 
-
----
-
-### Cluster
-
----
-
-### Monitoramento
-
----
-
-### Aplicação
-
----
