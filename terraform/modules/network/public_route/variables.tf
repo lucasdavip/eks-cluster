@@ -1,9 +1,9 @@
 variable "vpc_id" {
 }
 
-variable "project_name" {
+variable "project" {
 }
 
 variable "internet_gw_id" {
 }
- 
+

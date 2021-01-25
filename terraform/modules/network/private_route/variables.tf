@@ -1,7 +1,7 @@
 variable "ntgw_id" {
 }
 
-variable "project_name" {
+variable "project" {
 }
 
 variable "vpc_id" {

@@ -10,5 +10,5 @@ variable "subnet_az" {
 variable "subnet_name" {
 }
 
-variable "project_name" {
+variable "project" {
 }

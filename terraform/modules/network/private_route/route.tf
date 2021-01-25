@@ -2,7 +2,8 @@ resource "aws_route_table" "rt_nat" {
   vpc_id = var.vpc_id
 
   tags = {
-    project = var.project_name
+    Name    = "private_RT"
+    project = var.project
   }
 }
 

@@ -1,7 +1,7 @@
 resource "aws_eip" "nat" {
   tags = {
     Name    = var.subnet_name
-    project = var.project_name
+    Project = var.project
   }
 }
 
@@ -11,7 +11,7 @@ resource "aws_nat_gateway" "natgw" {
 
   tags = {
     Name    = var.subnet_name
-    project = var.project_name
+    Project = var.project
   }
   depends_on = [aws_eip.nat]
 }
