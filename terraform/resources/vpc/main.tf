@@ -5,8 +5,8 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket         = "terraform-state-project-cluster-monitorado"
-    key            = "qa/terraform.tfstate"
+    key            = "qa/vpc-terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "terraform_qa"
+    dynamodb_table = "vpc_terraform_qa"
   }
 }
