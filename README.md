@@ -13,3 +13,7 @@ Contendo três zonas de disponibilidade e dividindo a carga de trabalho entre as
 Este cenário é ideal para cargas de trabalho que requerem auta disponibilidade.
 
 ![VPC](https://github.com/lucasdavip/Cluster_Monitorado/blob/master/images/AWS_VPC.png)
+
+
+
+continua ...
