@@ -36,3 +36,14 @@ variable "min_size" {
   type        = number
   description = "Numero minimo de nós"
 }
+
+variable "environment" {
+  type        = string
+  description = "Nome do ambiente"
+
+}
+
+variable "project" {
+  type        = string
+  description = "Nome do projeto"
+}

@@ -11,6 +11,11 @@ resource "aws_eks_cluster" "eks_cluster" {
     aws_iam_role_policy_attachment.eks_cluster_role-AmazonEKSClusterPolicy,
     aws_iam_role_policy_attachment.eks_cluster_role-AmazonEKSVPCResourceController,
   ]
+
+  tags = {
+    Name    = var.environment
+    project = var.project
+  }
 }
 
 # regras para acesso ao EC2 ---------------------------------------------------------------
@@ -32,6 +37,12 @@ resource "aws_iam_role" "eks_cluster_role" {
   ]
 }
 POLICY
+
+  tags = {
+    Name    = var.environment
+    project = var.project
+  }
+
 }
 
 resource "aws_iam_role_policy_attachment" "eks_cluster_role-AmazonEKSClusterPolicy" {

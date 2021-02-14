@@ -1,29 +1,32 @@
 cluster_name = "eks-cluster"
 
 subnet_ids = [
-"subnet-0dd1e6953c5c5ec85",
-"subnet-0bceb55d4c8be8844",
-"subnet-014f2781f8644f2c0",
-"subnet-0ea46b4958dba6866",
-"subnet-098c848612f970ce9",
-"subnet-02f312d0ad5d8c331",
-"subnet-00c67b636cf9451cb",
-"subnet-0f6a1e9685321af0d",
-"subnet-01d39fc44b71c3183"
+"subnet-08c5a8c5c9ef32f7e",
+"subnet-02e03efe5b8f3f878",
+"subnet-085b7da2669dc1674",
+"subnet-0fb4f2230b55457f1",
+"subnet-0af731d6250296858",
+"subnet-0ae6aefac3236a3df",
+"subnet-0b00fd383fa719ce2",
+"subnet-01d2ff70341c32ee6",
+"subnet-0362808bae553d0dd"
 ]
 
 node_group_name = "eks-cluster-node-group"
 
 subnet_ids_ng = [
-"subnet-0dd1e6953c5c5ec85",
-"subnet-0bceb55d4c8be8844",
-"subnet-014f2781f8644f2c0"
+"subnet-08c5a8c5c9ef32f7e",
+"subnet-02e03efe5b8f3f878",
+"subnet-085b7da2669dc1674"
 ]
 
 instance_types = [
 "t3.nano"
 ]
 
-desired_size = 1
-max_size     = 1
-min_size     = 1
+desired_size = 3
+max_size     = 3
+min_size     = 3
+
+environment = "qa"
+project     = "eks-cluster"

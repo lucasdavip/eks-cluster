@@ -2,6 +2,8 @@ module "create_eks_cluster" {
   source       = "../../modules/cluster/eks"
   cluster_name = var.cluster_name
   subnet_ids   = var.subnet_ids
+  environment  = var.environment
+  project      = var.project
 }
 
 module "create_node_group" {
@@ -14,4 +16,6 @@ module "create_node_group" {
   min_size        = var.min_size
   instance_types  = var.instance_types
   depends_on      = [module.create_eks_cluster]
+  environment     = var.environment
+  project         = var.project
 }

@@ -15,6 +15,10 @@ resource "aws_eks_node_group" "eks_node_group" {
     aws_iam_role_policy_attachment.node_role-AmazonEKS_CNI_Policy,
     aws_iam_role_policy_attachment.node_role-AmazonEC2ContainerRegistryReadOnly,
   ]
+  tags = {
+    Name    = var.environment
+    project = var.project
+  }
 }
 
 #-- Create role nodes ---------------------------------------------------------------------------------
@@ -32,6 +36,11 @@ resource "aws_iam_role" "node_roles" {
     }]
     Version = "2012-10-17"
   })
+
+  tags = {
+    Name    = var.environment
+    project = var.project
+  }
 }
 
 resource "aws_iam_role_policy_attachment" "node_role-AmazonEKSWorkerNodePolicy" {
